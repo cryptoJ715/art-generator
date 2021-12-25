@@ -1,0 +1,28 @@
+{
+  "name": "nft-art-generator",
+  "version": "1.0.3",
+  "description": "A tool to generate generative NFT art projects.",
+  "main": "bin/index.js",
+  "repository": "https://github.com/sunmoon11100/nft-art-generator.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Victor",
+  "license": "MIT",
+  "bin": {
+    "nft-generate": "./bin/index.js"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.50",
+    "boxen": "^5.0.1",
+    "canvas": "^2.8.0",
+    "chalk": "^4.1.1",
+    "image-data-uri": "^2.0.1",
+    "inquirer": "^3.3.0",
+    "merge-images": "^2.0.0",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1",
+    "promise": "^8.1.0"
+  }
+}
